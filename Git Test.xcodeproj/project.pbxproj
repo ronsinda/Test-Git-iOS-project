@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B31EB9818F9F135002E4C38 /* ABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B31EB9718F9F135002E4C38 /* ABTest.m */; };
 		0BDFCCA818F9D02C00268F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDFCCA718F9D02C00268F72 /* Foundation.framework */; };
 		0BDFCCAA18F9D02C00268F72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDFCCA918F9D02C00268F72 /* CoreGraphics.framework */; };
 		0BDFCCAC18F9D02C00268F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDFCCAB18F9D02C00268F72 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B31EB9618F9F135002E4C38 /* ABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTest.h; sourceTree = "<group>"; };
+		0B31EB9718F9F135002E4C38 /* ABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTest.m; sourceTree = "<group>"; };
 		0BDFCCA418F9D02C00268F72 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDFCCA718F9D02C00268F72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0BDFCCA918F9D02C00268F72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				0BDFCCBD18F9D02D00268F72 /* abViewController.m */,
 				0BDFCCBF18F9D02D00268F72 /* Images.xcassets */,
 				0BDFCCAE18F9D02C00268F72 /* Supporting Files */,
+				0B31EB9618F9F135002E4C38 /* ABTest.h */,
+				0B31EB9718F9F135002E4C38 /* ABTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				0BDFCCB418F9D02C00268F72 /* main.m in Sources */,
 				0BDFCCBE18F9D02D00268F72 /* abViewController.m in Sources */,
+				0B31EB9818F9F135002E4C38 /* ABTest.m in Sources */,
 				0BDFCCB818F9D02D00268F72 /* abAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				0BDFCCD818F9D02D00268F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BDFCCD918F9D02D00268F72 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				0BDFCCDB18F9D02D00268F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
